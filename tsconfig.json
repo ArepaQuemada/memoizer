@@ -1,16 +1,15 @@
 {
-    "compilerOptions": {
-        "module": "ESNext",
-        "moduleResolution": "node",
-        "target": "ES2015",
-        "sourceMap": true,
-        "outDir": "./dist",
-        "declaration": true,
-        "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true,
-        "strict": true
-    },
-    "include": [
-        "src/**/*"
-      ]
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "target": "ES2015",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "declaration": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true
+  },
+  "include": ["src/**/*", "tests"],
+  "exclude": ["node_modules", "dist", "tests"]
 }

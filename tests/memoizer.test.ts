@@ -1,4 +1,4 @@
-import { memoizer } from "../memoizer";
+import { memoizer } from "../src/memoizer";
 
 describe("Testing memoizer - primitive params", () => {
   it("Should memoize numbers", () => {
