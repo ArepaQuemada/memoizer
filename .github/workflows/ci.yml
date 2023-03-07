@@ -23,4 +23,4 @@ jobs:
       run: echo "//registry.npmjs.org/:_authToken=\${NODE_AUTH_TOKEN}" > .npmrc
 
     - name: Deploy to npm
-      run: npm publish dist --access public
+      run: npm publish --access public
