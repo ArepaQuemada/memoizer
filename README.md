@@ -8,9 +8,9 @@ Memoizer es un modulo simple de codigo para memoizar funciones. El motivo princi
 
 ### TODO
 
-- [ ] Crear memoizador
-- [ ] Crear tests
+- [x] Crear memoizador
+- [x] Crear tests
 - [x] Agregar linter y prettier
 - [ ] Setear pipeline de github actions para publicar la libreria
 - [ ] Setear una herramienta para commits semanticos y changelog
-- [ ] Separar ramas dev y master 
+- [x] Separar ramas dev y master 
