@@ -1,5 +1,5 @@
 {
-  "name": "@juancho-dev/memoizer",
+  "name": "memoizer",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.mjs",
