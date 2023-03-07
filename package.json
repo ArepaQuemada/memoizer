@@ -1,6 +1,6 @@
 {
-  "name": "memoizer",
-  "version": "1.0.0",
+  "name": "@juancho-dev/memoizer",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/index.mjs",
   "module": "./dist/index.js",
