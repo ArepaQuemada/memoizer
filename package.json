@@ -1,7 +1,7 @@
 {
   "name": "@juancho-dev/memoizer",
   "version": "1.0.2",
-  "description": "",
+  "description": "A simple and ligth memoizer helper function",
   "main": "dist/index.mjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,8 +24,17 @@
     "build": "tsup --dts",
     "dev": "nodemon"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "memoizer",
+    "memoization",
+    "cache",
+    "helpers",
+    "optimization"
+  ],
+  "author": "Juan Rigual",
+  "repository": {
+    "url": "https://github.com/ArepaQuemada/memoizer"
+  },
   "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
