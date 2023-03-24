@@ -1,6 +1,6 @@
 import { memoizer } from "../src/memoizer";
 
-describe("Testing memoizer - primitive params", () => {
+describe("Primitive values", () => {
   it("Should memoize numbers", () => {
     const sumFn = jest.fn().mockImplementation((a: number, b: number) => a + b);
     const memoizedSum = memoizer(sumFn);
